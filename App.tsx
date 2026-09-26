@@ -8,7 +8,7 @@ import ResultScreen from './src/screens/ResultScreen';
 import TreatmentScreen from './src/screens/TreatmentScreen';
 
 export type RootStackParamList = {
-  Home: undefined;
+  Home: { imageUri?: string } | undefined;
   Camera: undefined;
   Loading: { imageUri: string };
   Result: { imageUri: string };
