@@ -1,0 +1,27 @@
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: '#FFFFFF',
+    padding: 20,
+  },
+
+  title: {
+    fontSize: 30,
+    fontWeight: 'bold',
+    color: '#000000',
+  },
+
+  button: {
+    backgroundColor: '#006400',
+    padding: 16,
+    borderRadius: 10,
+    marginVertical: 8,
+  },
+
+  buttonText: {
+    color: '#FFFFFF',
+    fontSize: 18,
+    fontWeight: 'bold',
+    textAlign: 'center',
+  },
+});
