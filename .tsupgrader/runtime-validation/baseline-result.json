@@ -1,0 +1,76 @@
+{
+  "planHash": "f3e7790501de1f88f0e025193f0d84a28185065bcbc19926594fe2aad313adfd",
+  "phase": "baseline",
+  "recordedAtUtc": "2026-09-29T23:46:05.6300734Z",
+  "retryCount": 0,
+  "resetBaseline": true,
+  "complete": true,
+  "result": {
+    "setupSucceeded": true,
+    "setupDurationMs": 0,
+    "setupFailureOutput": null,
+    "assertions": [
+      {
+        "name": "tests-pass",
+        "kind": "process",
+        "verificationMethod": "test-results",
+        "passed": true,
+        "timedOut": false,
+        "skipped": false,
+        "skippedReason": null,
+        "exitCode": 0,
+        "outputSample": "\r\n\u003E agropapaya-app@1.0.0 test\r\n\u003E node --test tests/*.test.mjs\r\n\r\n\u2714 TypeScript compiler CLI reports its version (130.3549ms)\r\n\u2139 tests 1\r\n\u2139 suites 0\r\n\u2139 pass 1\r\n\u2139 fail 0\r\n\u2139 cancelled 0\r\n\u2139 skipped 0\r\n\u2139 todo 0\r\n\u2139 duration_ms 255.2816\r\n",
+        "durationMs": 954,
+        "testResults": {
+          "testFramework": "unknown",
+          "runnerDetectedFrom": "none",
+          "testsTotal": 0,
+          "testsPassed": 0,
+          "testsFailed": 0,
+          "testsSkipped": 0,
+          "parseFailed": true
+        }
+      },
+      {
+        "name": "expo-web-serves-home",
+        "kind": "http-probe",
+        "verificationMethod": "http-status",
+        "passed": true,
+        "timedOut": false,
+        "skipped": false,
+        "skippedReason": null,
+        "exitCode": null,
+        "outputSample": "HTTP 200\n\u003C!DOCTYPE html\u003E\n\u003Chtml lang=\u0022en\u0022\u003E\n  \u003Chead\u003E\n    \u003Cmeta charset=\u0022utf-8\u0022 /\u003E\n    \u003Cmeta httpEquiv=\u0022X-UA-Compatible\u0022 content=\u0022IE=edge\u0022 /\u003E\n    \u003Cmeta name=\u0022viewport\u0022 content=\u0022width=device-width, initial-scale=1, shrink-to-fit=no\u0022 /\u003E\n    \u003Ctitle\u003Eagropapaya-app\u003C/title\u003E\n    \u003C!-- The \u0060react-native-web\u0060 recommended style reset: https://necolas.github.io/react-native-web/docs/setup/#root-element --\u003E\n    \u003Cstyle id=\u0022expo-reset\u0022\u003E\n      /* These styles make the body full-height */\n      html,\n      body {\n        height: 100%;\n      }\n      /* These styles disable body scrolling if you are using \u003CScrollView\u003E */\n      body {\n        overflow: hidden;\n      }\n      /* These styles make the root element full-height */\n      #root {\n        display: flex;\n        height: 100%;\n        flex: 1;\n      }\n    \u003C/style\u003E\n  \u003C/head\u003E\n\n  \u003Cbody\u003E\n    \u003C!-- Use static rendering with Expo Router to support running without JavaScript. --\u003E\n    \u003Cnoscript\u003E\n      You need to enable JavaScript to run this app.\n    \u003C/noscript\u003E\n    \u003C!-- The root element for your Expo app. --\u003E\n    \u003Cdiv id=\u0022root\u0022\u003E\u003C/div\u003E\n  \u003Cscript src=\u0022/node_modules/expo/AppEntry.bundle?platform=web\u0026dev=true\u0026hot=false\u0026lazy=true\u0026transform.engine=hermes\u0026transform.routerRoot=app\u0026transform.reactCompiler=true\u0026unstable_transformProfile=hermes-stable\u0022 defer\u003E\u003C/script\u003E\u003C/body\u003E\n\u003C/html\u003E\n\n--- server output ---\n\r\n\u003E agropapaya-app@1.0.0 web\r\n\u003E expo start --web --port 8081\r\n\r\nStarting project at c:\\Users\\ROSACAJUSOL\\Documents\\VisualStudioProjects\\AgroPapaya-App\r\n\u203A Port 8081 is being used by another process\r\nInput is required, but \u0027npx expo\u0027 is in non-interactive mode.\r\nRequired input:\r\n\u003E Use port 8082 instead?\r\n\u203A Skipping dev server\r\n",
+        "durationMs": 2037
+      }
+    ],
+    "executions": [
+      {
+        "source": "tests-pass",
+        "resolvedExecutable": "C:\\Program Files\\nodejs\\npm.CMD",
+        "args": [
+          "test"
+        ],
+        "cwd": "c:\\Users\\ROSACAJUSOL\\Documents\\VisualStudioProjects\\AgroPapaya-App",
+        "env": {},
+        "prependPath": [],
+        "platform": "win32"
+      },
+      {
+        "source": "expo-web-serves-home",
+        "resolvedExecutable": "C:\\Program Files\\nodejs\\npm.CMD",
+        "args": [
+          "run",
+          "web",
+          "--",
+          "--port",
+          "8081"
+        ],
+        "cwd": "c:\\Users\\ROSACAJUSOL\\Documents\\VisualStudioProjects\\AgroPapaya-App",
+        "env": {},
+        "prependPath": [],
+        "platform": "win32"
+      }
+    ]
+  }
+}
