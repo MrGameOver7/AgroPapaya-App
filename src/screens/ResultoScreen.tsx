@@ -7,7 +7,7 @@ import { styles } from '../styles/AgroPapayaScreens';
 
 type Props = NativeStackScreenProps<RootStackParamList, 'Result'>;
 
-// Datos de demostración: reemplazar por la respuesta del backend/modelo de IA.
+// Datos de demostración
 const simulatedResult = {
   disease: 'Mancha anular',
   confidence: 92,

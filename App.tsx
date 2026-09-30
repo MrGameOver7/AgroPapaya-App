@@ -1,11 +1,11 @@
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 
-import CameraScreen from './src/screens/CameraScreen';
-import HomeScreen from './src/screens/HomeScreen';
-import LoadingScreen from './src/screens/LoadingScreen';
-import ResultScreen from './src/screens/ResultScreen';
-import TreatmentScreen from './src/screens/TreatmentScreen';
+import CameraScreen from './src/screens/CamaraScreen';
+import HomeScreen from './src/screens/InicioScreen';
+import LoadingScreen from './src/screens/CragandoScreen';
+import ResultScreen from './src/screens/ResultoScreen';
+import TreatmentScreen from './src/screens/TratamientoScreen';
 
 export type RootStackParamList = {
   Home: { imageUri?: string } | undefined;
