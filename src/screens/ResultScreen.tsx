@@ -9,7 +9,7 @@ type Props = NativeStackScreenProps<RootStackParamList, 'Result'>;
 
 // Datos de demostración: reemplazar por la respuesta del backend/modelo de IA.
 const simulatedResult = {
-  disease: 'Mancha foliar',
+  disease: 'Mancha anular',
   confidence: 92,
   description: 'Posible presencia de una enfermedad foliar en la hoja analizada.',
   recommendations: [
